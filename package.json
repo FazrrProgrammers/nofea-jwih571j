@@ -1,0 +1,9 @@
+{
+  "name": "dstat-monitor-vercel",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel start"
+  },
+  "dependencies": {}
+}
