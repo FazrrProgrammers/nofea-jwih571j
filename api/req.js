@@ -1,3 +1,6 @@
+let requestCount = 0;
+
 export default function handler(req, res) {
-  res.status(200).json({ status: 'Received' });
+  requestCount++;
+  res.status(200).json({ count: requestCount });
 }
